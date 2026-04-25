@@ -13,8 +13,8 @@ import hashlib
 # ═══════════════════════════════════════════════════════
 #                    CONFIGURATION
 # ═══════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "7020676565"))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7454509508:AAGdqEQ3K4B4fS0eByfW9xVfVs6bJ7QgGZ4")
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "7848264205"))
 BOT_NAME = "CashFlowBoard"
 BOT_USERNAME = "CashFlowBoard_bot"
 COMPANY = "Phantom MD Technology"
