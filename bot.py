@@ -30,7 +30,7 @@ if _rail_domain:
     WEBAPP_URL = f"https://{_rail_domain}"
 else:
     WEBAPP_URL = os.environ.get("WEBAPP_URL",
-                 "https://abrarali97987.github.io/cashflowboard-bot")
+                 "https://web-production-d6fea.up.railway.app")
 
 # ── Mining Constants ──────────────────────────────────
 BASE_HPOWER            = 0
@@ -237,7 +237,7 @@ class WebAppAPIHandler(BaseHTTPRequestHandler):
             if domain:
                 api_url = f"https://{domain}"
             else:
-                api_url = os.environ.get("API_URL", f"http://localhost:{port}")
+                api_url = os.environ.get("API_URL", f"https://web-production-d6fea.up.railway.app:{port}")
             html = html.replace("__API_BASE_PLACEHOLDER__", api_url)
             body = html.encode()
             self.send_response(200)
