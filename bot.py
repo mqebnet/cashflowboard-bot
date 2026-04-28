@@ -15,8 +15,8 @@ from pymongo import MongoClient
 #                    CONFIGURATION
 # ═══════════════════════════════════════════════════════
 BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8348643466:AAEuYJEhxjyY-NrIY6oNask_UwdlK_EI6zY")
-ADMIN_ID    = int(os.environ.get("ADMIN_ID", "8065948352"))
-ADMIN_SECRET = os.environ.get("ADMIN_SECRET", "phantommd2024")
+ADMIN_ID    = int(os.environ.get("ADMIN_ID", "8348643466"))
+ADMIN_SECRET = os.environ.get("ADMIN_SECRET", "VMp_kkSxkwGtT_Mi0meS0erv7ThqVkoEDuljUBRFO2hcFCe63nRGgg")
 MONGO_URL   = os.environ.get("MONGO_URL", "${{ MongoDB.MONGO_URL }}")
 
 BOT_NAME     = "CashFlowBoard"
